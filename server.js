@@ -21,8 +21,8 @@ app.use(express.json());
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'controlegastos_db',
-    password: '123', // <-- CONFIRME SE SUA SENHA ESTÁ CORRETA AQUI
+    database: 'aldomobile',
+    password: '123456', // <-- CONFIRME SE SUA SENHA ESTÁ CORRETA AQUI
     port: 5432,
 });
 
